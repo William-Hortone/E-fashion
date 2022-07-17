@@ -10,7 +10,11 @@ const homeImagesBox2 = document.querySelectorAll('.home_images_content');
 const preloader = document.querySelector('.preloader_container');
 const body = document.body;
 
+let containerHide = document.querySelectorAll('.hider')
 
+containerHide.forEach(item =>{
+    item.classList.add('displa_containers')
+})
 console.log(preloader)
 window.addEventListener('load', ()=>{
     preloader.classList.add('hide_preloader');
