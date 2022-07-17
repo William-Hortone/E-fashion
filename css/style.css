@@ -8,16 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  /* overflow: hidden; */
-  /* display: none; */
-  height: 100vh;
-}
+
 
 .display_containers {
-  /* display: block; */
-  /* overflow-y: auto;
-  height: auto; */
   display: block;
 }
 :root {
@@ -1142,7 +1135,7 @@ textarea {
   transform: translateY(100%);
   border-radius: 0;
 }
-
+/* -------hider------ */
 .hider{
     display: none;
 }

@@ -12,13 +12,13 @@ const body = document.body;
 
 let containerHide = document.querySelectorAll('.hider')
 
-containerHide.forEach(item =>{
-    item.classList.add('displa_containers')
-})
-console.log(preloader)
+
+
 window.addEventListener('load', ()=>{
     preloader.classList.add('hide_preloader');
-    body.classList.add('display_body');
+    containerHide.forEach(item =>{
+        item.classList.add('display_containers')
+    })
 })
 function cursorPosition (e) {
     cursor.style.top = e.pageY + "px";
