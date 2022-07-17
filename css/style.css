@@ -10,9 +10,9 @@ html {
 }
 
 
-.display_containers {
+/* .display_containers {
   display: block;
-}
+} */
 :root {
   font-size: 10px;
   --color: #ffffff;
@@ -22,7 +22,7 @@ html {
 
 /* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap'); */
 
-.preloader_container {
+/* .preloader_container {
   width: 100%;
   height: 100vh;
   background-color: rgb(229, 239, 241);
@@ -48,7 +48,7 @@ html {
     no-repeat;
   background-position: center;
   overflow-y: hidden;
-}
+} */
 .hide_preloader {
   visibility: none;
   z-index: -99;
@@ -1137,7 +1137,7 @@ textarea {
 }
 /* -------hider------ */
 .hider{
-    display: none;
+    /* display: none; */
 }
 
 /* ===all medias k===== */

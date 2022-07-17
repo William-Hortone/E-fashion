@@ -8,18 +8,18 @@ const catalogueBtn = document.querySelectorAll('.button_catalogue');
 const homeImagesBox1 = document.querySelectorAll('.colection_images_box');
 const homeImagesBox2 = document.querySelectorAll('.home_images_content');
 const preloader = document.querySelector('.preloader_container');
-const body = document.body;
+// const body = document.body;
 
-let containerHide = document.querySelectorAll('.hider')
+// let containerHide = document.querySelectorAll('.hider')
 
 
-
-window.addEventListener('load', ()=>{
-    preloader.classList.add('hide_preloader');
-    containerHide.forEach(item =>{
-        item.classList.add('display_containers')
-    })
-})
+// console.log(containerHide)
+// window.addEventListener('load', ()=>{
+//     preloader.classList.add('hide_preloader');
+//     // containerHide.forEach(item =>{
+//     //     item.classList.add('display_containers')
+//     // })
+// })
 function cursorPosition (e) {
     cursor.style.top = e.pageY + "px";
     cursor.style.left = e.pageX + "px";
